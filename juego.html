@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="est_juego.css">
+        <link rel="stylesheet" href="est_perdiste.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preguntados trucho</title>
+    </head>
+
+    <body>
+        <section>
+            <div id="juego">
+                <div class="nav">
+                    <div class="imag">
+                        <img id="imagenCategoria" src="logos_cat/libro.png" /> 
+                    </div>
+                    
+                    <div class="resp">
+                        <h5>Respuestas correctas: <p id="respuestasCorrectas">0</p></h5>
+                    </div>
+
+                    
+                    <div class="tiempo">
+                        <h4>Tiempo restante: <p id="contadorSegundos">10</p></h4>
+                    </div>
+
+                </div>
+                <div class="contenedor">
+                    
+                    <div class="preg">
+                        <div class>
+                            <p>Categoria: <span id="categoria"></span>.</p> <p id="pregunta">pregunta</p>
+                        </div>
+                        <div class="img_preg">
+                            <img id="imagen" src="">
+                        </div>
+                    </div>
+
+                    <div class="opciones">
+
+                        <button id="botonRespuesta" data-respuestaid="1">1</button>
+                        <button id="botonRespuesta" data-respuestaid="2">2</button>
+                        <button id="botonRespuesta" data-respuestaid="3">3</button>
+                        <button id="botonRespuesta" data-respuestaid="4">4</button>
+                    </div>
+                </div>
+                
+            </div>
+        
+            
+        </section>
+
+        <div id="perdiste">
+            <div class="caja_gen">
+                <div class="caja1">
+                    <h1> Game over</h1>
+                    <p>Puntuación: <span id="puntuacion">0</span></p>
+                </div>
+    
+                <div class="caja2">
+                    <a href="index.html" style="text-decoration:none" >
+                        <span class="boton" > VOLVER A INTENTARLO </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="ganaste">
+            <h5>GANASTE!</h5>
+            <a href="index.html"><button>Volver al inicio</button>
+        </div>
+        </body>
+        <script src="juego.js"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B3E5FC;
+}
+
+.caja_gen {
+    display: block;
+    align-content: center;
+}
+
+.caja1 {
+    background-color: rgb(255, 0, 0);
+    border-radius: 2px solid black;
+    text-align: center;
+
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 115%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    background-color:  #FEF9E7;
+    width: 50%;
+    align-content: center;
+}
+
+.caja2 {
+    background-color: rgb(0, 7, 75);
+    border-radius: 2px solid rgb(0, 0, 0);
+    text-align: center;
+
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 115%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    background-color:  #FEF9E7;
+    width: 50%;
+    align-content: center;
+}
+.boton{
+    width: 50%;
+    height: 25;
+    background-color: aqua;
+    color: black;
+}
